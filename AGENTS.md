@@ -1,3 +1,23 @@
+Tech stack: Laravel 11, Inertia.js 2.x, React 18, TypeScript, Tailwind CSS, shadcn/ui, MySQL, Bun.
+
+
+All React code goes in `resources/js/`. Pages in `resources/js/pages/`. Components in `resources/js/components/common/`. shadcn/ui in `resources/js/components/ui/`. Admin components in `resources/js/components/admin/`.
+
+Use functional components with hooks. Use Inertia's `useForm()` for forms. Use `<Link>` from `@inertiajs/react` for navigation. Use `usePage().props` for shared data.
+
+Never use inline styles. Always use Tailwind. Never use `any` type. Always define TypeScript interfaces.
+
+Design tokens: background white #FFFFFF, foreground #0A0A0A, muted #F5F5F5, border #E5E5E5, success green (available), destructive red (sold).
+
+Mobile-first responsive approach.
+
+Reference docs: `docs/PRD.md`, `docs/APP_FLOW.md`, `docs/TECH_STACK.md`, `docs/FRONTEND_GUIDELINES.md`, `docs/BACKEND_STRUCTURE.md`, `docs/IMPLEMENTATION_PLAN.md`.
+
+Read `docs/progress.txt` at the start of every session. Update `docs/progress.txt` after completing any feature.
+
+Review `docs/lessons.md` at session start. Update it after every correction.
+
+
 <laravel-boost-guidelines>
 === foundation rules ===
 
